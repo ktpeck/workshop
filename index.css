@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Bellefair");
+
+	body{
+	background-image: url("isleofskye.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment (fixed -- non scrollable), repeat: repeat-x (images tiled horizontally), position*/
+}
+
+p.pDefault{ 
+	/*width, style, color*/
+	border-radius: 2px;
+	padding: 10px;
+	background-color: lightgrey;
+	margin: 10px;
+}
+
+h1{
+	background-color: white;
+	margin-left: 40px;
+	color: cyan;
+}
+/*p{
+	background-color: black;
+	margin-left: 20px;
+	color: white;
+}*/
+/*.className or #idname*/
+div.flavors{
+	height: 50px;
+	width: 50px;
+	border: 5px solid blue;
+}
+
+div.capitals{
+/*	height: 50px;
+	width: 50px;*/
+	/*background-color: rbg(red, green, blue) or #RRGGBB (hexad)*/
+	background-color: white;
+	color: black;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	opacity: 0.5;
+}
+
+div#special{
+/*	height: 50px;
+	width: 50px;*/
+	background-color: #87CEFA;
+	color: black;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	opacity: 0.5;
+}
+/*
+table#t01{
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+}
+
+th{
+	text-align: center;
+	background-color: skyblue;
+	padding: 10px;	
+}
+
+td{
+	text-align: center;
+	background-color: yellow;
+	padding: 10px;		
+}*/
+
+table, th, td {
+	font-family: "Bellefair";
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 15px;
+}
+th{
+	text-align: left;
+}
+table{
+	border-spacing: 5px;
+}
+
+table#t01{
+	width: 100%;
+	background-color: #f1f1c1;
+}
+table#t01 th{
+	color: white;
+	background-color: black;
+}
